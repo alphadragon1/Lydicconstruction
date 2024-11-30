@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+:root{
+    --background: #F0F0F0;
+    --secondbackground: #D3D3D3;
+
+}
+/* style.css */
+body {
+    background-color: var(--background);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2em;
+    font-weight: 500;
+}
+p{
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+i{
+    font-size: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a{
+ color:black;
+ opacity: .7;
+}
+
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+#home{
+    display: column;
+    background-color: var(--background);
+}
+button{
+    font-size: 25px;
+    
+    border-radius: 5px;
+}
+button:hover{
+    font-size: 28px;
+    color:  var(--secondbackground);
+    background-color: black;
+}
+#about{
+    display: column;
+    background-color: var(--secondbackground);
+    
+
+}
+#services{
+    display: column;
+    background-color: var(--background);
+}
+#testimonials{
+    display: column;
+    background-color: var(--secondbackground);
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: grid;
+    font-size: 20px;
+  }
+
